@@ -19,17 +19,7 @@ body {
 
 /* Showcase */
 .showcase {
-
-  
-    /* Full height */
-    height: 100%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-  /*height: 100vh;*/
+  height: 100vh;
   background: url('./assets/profile.jpg') no-repeat center/cover;
 }
 
