@@ -1,7 +1,9 @@
+import FITconnect from "./assets/FITconnect.png"
+
 const data = [
   {
     id: 1,
-    path: './assets/FITconnecy.jpg',
+    path: {FITconnect},
     desc: 'FITconnect'
   },
 ]
