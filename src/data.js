@@ -1,11 +1,11 @@
-import FITconnect from "./assets/FITconnect.png"
+import fitconnect from "./assets/FITconnect.png"
 
 const data = [
   {
     id: 1,
-    path: {FITconnect},
+    path: { fitconnect },
     desc: 'FITconnect'
-  },
+  }
 ]
 
-export default data
+export default data;
