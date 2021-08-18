@@ -9,13 +9,13 @@ const Showcase = () => {
       <section className="showcase">
         <div className="overlay flex flex-col items-center justify-center text-white px-5">
           <h1 className="text-5xl font-bold text-right mb-10 lg:text-center lg:text-7xl lg:px-56">
-            I am a <span className='translate-y-10 opacity-0 transform transition duration-6000 ease-in-out text-green-500'>
+            I am a <span className='text-green-500'>
               <Typed
                 strings={['web developer', 'full stack MERN', 'software engineer', 'mobile developer']}
                 typeSpeed={40}
                 backSpeed={60}
                 loop
-              /> </span>
+              /></span>
           </h1>
 
           <div className="ml-auto lg:ml-0">
