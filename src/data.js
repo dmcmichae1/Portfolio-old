@@ -1,4 +1,4 @@
-import fitconnect from "./assets/FITconnect.png"
+import fitconnect from "./assets/FITconnect.png";
 
 const data = [
   {
