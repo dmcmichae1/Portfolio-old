@@ -1,17 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 
-  'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 
-  'Cantarell', 'Open Sans', 'Helvetica Neue', 
-  sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .logo h2 {
@@ -19,6 +13,7 @@ body {
 }
 
 /* Showcase */
+
 .showcase {
   height: 100vh;
   background: url('./assets/profile.jpg') no-repeat center/cover;
@@ -26,58 +21,71 @@ body {
 
 .showcase .overlay {
   height: 100vh;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /*FOOTER*/
+
 .footer {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  /* padding-top: 1rem;
+  padding-bottom: 1rem; */
   max-width: 100% !important;
-  /* height: 100% !important; */
-  /* margin: 0px !important; */
-  /* padding: 0px !important; */
-  overflow-x: hidden; 
+  height: 100% !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  overflow-x: hidden;
 }
 
 .react-footer {
   text-align: center;
+  background-color: #2D2B2D;
+  color: white;
+}
+
+.footer-copyright {
+  background-color: #2D2B2D;
+  color: white;
 }
 
 .react-footer h3 {
-  font-size: 1.2rem !important;
+  font-size: 1rem !important;
 }
 
 .react-footer img {
-
   transition: all 0.3s ease;
   position: relative;
+  display: inline-block;
+  width: 2rem;
+  left: 10px;
 }
 
 .react-footer img:hover {
-  width: 2rem;
+  width: 1rem;
 }
 
 /* ******************* About Me ******************* */
+
 .about-me {
   color: var(--primary-white);
   background-color: var(--secondary-black);
-  text-align: center;
+  text-align: left;
   font-family: "Roboto Condensed", sans-serif;
   padding-top: 4rem;
   padding-bottom: 4rem;
   max-width: 100% !important;
-  /* height: 100% !important; */
-  /* margin: 0px !important; */
-  /* padding: 0px !important; */
-  overflow-x: hidden; 
+  height: 100% !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  overflow-x: hidden;
 }
 
 .about-me a img {
   width: 4rem;
   transition: all 0.3s ease;
+  display: inline-block;
   position: relative;
-  height: 4.12rem !important;
+  height: 4rem !important;
+  /* left: 420px; */
 }
 
 .about-me a img:hover {
@@ -85,20 +93,16 @@ body {
   height: 4.6rem !important;
 }
 
-
 .aboutMe-title {
   font-family: 'Russo One', sans-serif;
 }
 
-.profile-picture {
-  width: 30rem;
-  box-shadow: 0.125rem 0.125rem 0.125rem 0.125rem #23292E;
-}
 
-/* For different mobile Responsiveness */
+/* mobile Responsiveness */
+
 @media (max-width: 768px) {
   .profile-picture {
-    width: 20rem;
+    width: 15rem;
   }
   .about-me a img {
     width: 2rem;
@@ -106,7 +110,6 @@ body {
     transition: all 0.3s ease;
     position: relative;
   }
-  
   .about-me a img:hover {
     width: 2.3rem;
     height: 2.5rem !important;

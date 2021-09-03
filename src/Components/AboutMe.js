@@ -1,6 +1,9 @@
 import React from "react";
 import githubIcon from "../assets/githubicon.png";
 import ProfilePic from "../assets/profile.jpg";
+import linkedin from "../assets/linkedinicon.png";
+import resumeicon from "../assets/resumeicon.png";
+
 
 
 const AboutMe = () => {
@@ -10,7 +13,7 @@ const AboutMe = () => {
         <div className="container">
           <div className="row">
             <div className="col">
-              <h1 className="text-3xl p-5">About Me</h1>
+              <h1 className="text-3xl p-5 text-center">About Me</h1>
               <hr />
               <p className="text-lg p-5">
                 Hello there! My name is Devin, I am a Coding Bootcamp Graduate with a
@@ -31,6 +34,7 @@ const AboutMe = () => {
                 In the next five years I see myself becoming a more experienced developer and breaking into the world of artifical intelligence.
               </p>
               <br />
+
               <a
                 href="https://github.com/dmcmichae1"
                 target="_blank"
@@ -42,13 +46,35 @@ const AboutMe = () => {
                   alt="GitHub Icon"
                 />
               </a>
-            </div>
-            <div className="object-scale-down">
-              <img
-                className="p-s object-scale-down rounded"
-                alt="Devin"
-                src={ProfilePic}
-              />
+              <a
+                href="https://www.linkedin.com/in/devin-mcmichael"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  className="img-thumbnail m-2 rounded"
+                  src={linkedin}
+                  alt="LinkedIn Icon"
+                />
+              </a>
+              <a className="resume"
+                href="https://docs.google.com/document/d/1QMkE5aQw5DFbrRMhQzDeD8yh5bkGBz7t2KI3E1kjvlI/edit?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img className="resume"
+                  className="img-thumbnail m-2 rounded"
+                  src={resumeicon}
+                  alt="Resume Icon"
+                />
+              </a>
+              <div>
+                <img
+                  className="w-80 object-right-bottom"
+                  alt="Devin"
+                  src={ProfilePic}
+                />
+              </div>
             </div>
           </div>
         </div>
