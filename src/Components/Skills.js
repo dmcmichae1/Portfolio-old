@@ -1,5 +1,5 @@
 // import React from 'react';
-// //import angularj from ('../assets2/angularjsicon.png');
+// import angularj from ('../assets2/angularjsicon.png');
 // import aws from ('../assets2/awsjsicon.png');
 // import database from ('../assets2/databaseicon.png');
 // import html from ('../assets2/htmlcssjsicons.jpg');
@@ -12,63 +12,63 @@
 //   return (
 //     <div>
 //       <div>
-//               <img
-//                 //className="w-80 object-right-bottom"
-//                 alt="angular"
-//                 src={angularj}
-//               />
-//             </div>
-//             <div>
-//               <img
-//                // className="w-80 object-right-bottom"
-//                 alt="aws"
-//                 src={aws}
-//               />
-//             </div>
-//             <div>
-//               <img
-//                 //className="w-80 object-right-bottom"
-//                 alt="database"
-//                 src={database}
-//               />
-//             </div>
-//             <div>
-//               <img
-//                // className="w-80 object-right-bottom"
-//                 alt="html"
-//                 src={html}
-//               />
-//             </div>
-//             <div>
-//               <img
-//                // className="w-80 object-right-bottom"
-//                 alt="jquery"
-//                 src={jquery}
-//               />
-//             </div>
-//             <div>
-//               <img
-//                // className="w-80 object-right-bottom"
-//                 alt="mongo"
-//                 src={mongo}
-//               />
-//             </div>
-//             <div>
-//               <img
-//                // className="w-80 object-right-bottom"
-//                 alt="node"
-//                 src={node}
-//               />
-//             </div>
-//             <div>
-//               <img
-//                // className="w-80 object-right-bottom"
-//                 alt="reactj"
-//                 src={reactj}
-//               />
-//             </div>
+//         <img
+//           className="w-80 object-right-bottom"
+//           alt="angular"
+//           src={angularj}
+//         />
+//       </div>
+//       <div>
+//         <img
+//           className="w-80 object-right-bottom"
+//           alt="aws"
+//           src={aws}
+//         />
+//       </div>
+//       <div>
+//         <img
+//           className="w-80 object-right-bottom"
+//           alt="database"
+//           src={database}
+//         />
+//       </div>
+//       <div>
+//         <img
+//           className="w-80 object-right-bottom"
+//           alt="html"
+//           src={html}
+//         />
+//       </div>
+//       <div>
+//         <img
+//           className="w-80 object-right-bottom"
+//           alt="jquery"
+//           src={jquery}
+//         />
+//       </div>
+//       <div>
+//         <img
+//           className="w-80 object-right-bottom"
+//           alt="mongo"
+//           src={mongo}
+//         />
+//       </div>
+//       <div>
+//         <img
+//           className="w-80 object-right-bottom"
+//           alt="node"
+//           src={node}
+//         />
+//       </div>
+//       <div>
+//         <img
+//           className="w-80 object-right-bottom"
+//           alt="reactj"
+//           src={reactj}
+//         />
+//       </div>
 //     </div>
 //   )
 // }
 
-// export default Skills
+// export default Skills;

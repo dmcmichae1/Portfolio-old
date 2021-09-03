@@ -24,9 +24,6 @@ const Header = () => {
             <li className='mr-5'>
               <Link to="/skills">Skills</Link>
             </li>
-            <li>
-              <Link to="/resume">Resume</Link>
-            </li>
           </ul>
         </nav>
       </header>

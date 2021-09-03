@@ -2,7 +2,8 @@ import React from "react";
 import githubIcon from "../assets/githubicon.png";
 import ProfilePic from "../assets/profile.jpg";
 import linkedin from "../assets/linkedinicon.png";
-import Footer from './Footer';
+import resumeicon from "../assets/resumeicon.png";
+
 
 
 const AboutMe = () => {
@@ -33,7 +34,7 @@ const AboutMe = () => {
                 In the next five years I see myself becoming a more experienced developer and breaking into the world of artifical intelligence.
               </p>
               <br />
-             
+
               <a
                 href="https://github.com/dmcmichae1"
                 target="_blank"
@@ -46,7 +47,7 @@ const AboutMe = () => {
                 />
               </a>
               <a
-                href="https://www.linkedin.com/in/devin-mcmichael-00b497166/"
+                href="https://www.linkedin.com/in/devin-mcmichael"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -56,13 +57,24 @@ const AboutMe = () => {
                   alt="LinkedIn Icon"
                 />
               </a>
+              <a className="resume"
+                href="https://docs.google.com/document/d/1QMkE5aQw5DFbrRMhQzDeD8yh5bkGBz7t2KI3E1kjvlI/edit?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img className="resume"
+                  className="img-thumbnail m-2 rounded"
+                  src={resumeicon}
+                  alt="Resume Icon"
+                />
+              </a>
               <div>
-              <img
-                className="w-80 object-right-bottom"
-                alt="Devin"
-                src={ProfilePic}
-              />
-            </div>
+                <img
+                  className="w-80 object-right-bottom"
+                  alt="Devin"
+                  src={ProfilePic}
+                />
+              </div>
             </div>
           </div>
         </div>

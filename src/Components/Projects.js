@@ -11,10 +11,10 @@ const Projects = () => {
         {items.map((items) => {
           const { id, path, desc } = items
           return (
-            <div key={ id }>
-              <img src={ path } alt={ desc } className="p-s bg-green-500 rounded" />
+            <div key={id}>
+              <img src={path} alt={desc} className="p-s bg-green-500 rounded" />
               <small className="block text-center text-white font-semibold text-lg">
-                { desc }
+                {desc}
               </small>
             </div>
           )

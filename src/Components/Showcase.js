@@ -30,4 +30,4 @@ const Showcase = () => {
   )
 }
 
-export default Showcase
+export default Showcase;
