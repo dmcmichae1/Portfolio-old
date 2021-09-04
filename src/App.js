@@ -30,6 +30,7 @@ function App() {
 
       <Route path="/skills">
         <Skills />
+        <Footer />
       </Route>
 
     </Router>

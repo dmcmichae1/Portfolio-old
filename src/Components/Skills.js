@@ -1,74 +1,60 @@
-// import React from 'react';
-// import angularj from ('../assets2/angularjsicon.png');
-// import aws from ('../assets2/awsjsicon.png');
-// import database from ('../assets2/databaseicon.png');
-// import html from ('../assets2/htmlcssjsicons.jpg');
-// import jquery from ('../assets2/jqueryicon.png');
-// import mongo from ('../assets2/mongodbicon.png');
-// import node from ('../assets2/nodejsicon.jpg');
-// import reactj from ('../assets2/reactjsicon.png');
+import React, { useEffect } from "react";
+import Aos from 'aos';
+import "aos/dist/aos.css";
+import MySkills from "./MySkills";
 
-// const Skills = () => {
-//   return (
-//     <div>
-//       <div>
-//         <img
-//           className="w-80 object-right-bottom"
-//           alt="angular"
-//           src={angularj}
-//         />
-//       </div>
-//       <div>
-//         <img
-//           className="w-80 object-right-bottom"
-//           alt="aws"
-//           src={aws}
-//         />
-//       </div>
-//       <div>
-//         <img
-//           className="w-80 object-right-bottom"
-//           alt="database"
-//           src={database}
-//         />
-//       </div>
-//       <div>
-//         <img
-//           className="w-80 object-right-bottom"
-//           alt="html"
-//           src={html}
-//         />
-//       </div>
-//       <div>
-//         <img
-//           className="w-80 object-right-bottom"
-//           alt="jquery"
-//           src={jquery}
-//         />
-//       </div>
-//       <div>
-//         <img
-//           className="w-80 object-right-bottom"
-//           alt="mongo"
-//           src={mongo}
-//         />
-//       </div>
-//       <div>
-//         <img
-//           className="w-80 object-right-bottom"
-//           alt="node"
-//           src={node}
-//         />
-//       </div>
-//       <div>
-//         <img
-//           className="w-80 object-right-bottom"
-//           alt="reactj"
-//           src={reactj}
-//         />
-//       </div>
-//     </div>
-//   )
-// }
+const Skills = () => {
+  console.log(MySkills[0].skills1);
 
-// export default Skills;
+  const skills1 = MySkills[0].skills1;
+  const skills2 = MySkills[1].skills2;
+
+  useEffect(() => {
+    Aos.init({ duration: 500 });
+
+  }, [])
+
+  console.log(skills1)
+
+  return (
+    <div className="py-20 px-5 bg-green-800">
+    <div className="Jumbotron skills-wraper" id="Skills">
+      <div className="container skills-container">
+        <h1 className="skills-title text-7xl text-center">Skills</h1>
+        <div className="row row-cols-1 row-cols-md-3">
+          {skills1.map((skill, i) => (
+            <div key={i} className="col mb-4" style={{ width: "15rem" }} data-aos="flip-up">
+              <div className="h-100">
+                <img src={skill.img} className="card-img-top rounded" alt={skill.alt} />
+                <div className="card-body">
+                  <h5 className="card-title font-mono text-xl">{skill.Lenguage}</h5>
+                  <p className="card-text">
+                    {skill.text}
+                  </p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="row row-cols-1 row-cols-md-3">
+          {skills2.map((skill, i) => (
+            <div key={i} className="col mb-4 font-mono" style={{ width: "15rem" }} data-aos="flip-down">
+              <div className="h-100">
+                <img src={skill.img} className="card-img-top rounded" alt={skill.alt} />
+                <div className="card-body">
+                  <h5 className="card-title font-mono text-xl">{skill.Lenguage}</h5>
+                  <p className="card-text">
+                    {skill.text}
+                  </p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+    </div>
+  );
+};
+
+export default Skills;

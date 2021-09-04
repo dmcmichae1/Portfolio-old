@@ -4,7 +4,7 @@ const data = [
   {
     id: 1,
     path: { fitconnect },
-    desc: 'FITconnect'
+    desc: 'FITconnect- SEE GITHUB LINK. COMING LIVE SOON. '
   }
 ]
 

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import data from "../data";
+import githubIcon from "../assets/githubicon.png";
 
 const Projects = () => {
   const [items, setItems] = useState(data);
@@ -16,11 +17,23 @@ const Projects = () => {
               <small className="block text-center text-white font-semibold text-lg">
                 {desc}
               </small>
+              <a className="portfolio"
+            href="https://github.com/dmcmichae1"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img className="img-thumbnail m-2 rounded"
+              className="img-thumbnail m-2 rounded"
+              src={githubIcon}
+              alt="GitHub Icon"
+            />
+          </a>
             </div>
           )
         })}
       </section>
     </>
+  
   )
 }
 
