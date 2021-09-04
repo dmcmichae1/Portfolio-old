@@ -19,7 +19,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <img className="git"
+            <img
               className="img-thumbnail m-2 rounded"
               src={githubIcon}
               alt="GitHub Icon"
@@ -30,7 +30,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <img className="linkedin"
+            <img
               className="img-thumbnail m-2 rounded"
               src={linkedin}
               alt="LinkedIn Icon"
@@ -41,7 +41,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <img className="resume"
+            <img
               className="img-thumbnail m-2 rounded"
               src={resumeicon}
               alt="Resume Icon"

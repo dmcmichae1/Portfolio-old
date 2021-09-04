@@ -23,7 +23,7 @@ const Projects = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <img className="img-thumbnail m-2 rounded"
+            <img
               className="img-thumbnail m-2 rounded"
               src={githubIcon}
               alt="GitHub Icon"

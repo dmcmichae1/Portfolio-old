@@ -62,7 +62,7 @@ const AboutMe = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img className="resume"
+                <img
                   className="img-thumbnail m-2 rounded"
                   src={resumeicon}
                   alt="Resume Icon"
