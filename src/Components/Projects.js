@@ -3,6 +3,7 @@ import data from "../data";
 import githubIcon from "../assets/githubicon.png";
 
 const Projects = () => {
+  //eslint-disable-next-line
   const [items, setItems] = useState(data);
 
   return (
